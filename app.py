@@ -38,8 +38,8 @@ def predict(data:Userin):
         }
     ])
 
-
-    prediction = model.predict(input_df)[0]
+    #  predition
+    prediction = model.predict(input_df)[0] 
     return {'Prediction Price': prediction}
 
 
