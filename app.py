@@ -39,7 +39,7 @@ def predict(data:Userin):
     ])
 
     #  predition
-    prediction = round(float(model.predict(input_df)[0]),2)
+    prediction = model.predict(input_df)[0] 
     return {'Prediction Price': prediction}
 
 
